@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: 'Noto';
     src: url('./fonts/Notosansdisplayregular.woff2') format('woff2'),
          url('./fonts/Notosansdisplayregular.woff') format('woff');
@@ -402,7 +402,7 @@ svg {
         max-width: 355px;
     }
 
-}
+}*/
 
 
 
