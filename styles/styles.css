@@ -108,7 +108,8 @@ svg {
 .container {
   margin: 0 auto;
   max-width: 1634px;
-  padding: 0 10px;
+  padding: 0 10px; 
+  overflow: none; 
 }
 
 .btn {
