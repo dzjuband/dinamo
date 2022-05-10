@@ -196,5 +196,28 @@
         max-width: 355px;
     }
 
+    .box-head__title {
+        font-size: 28px;
+        line-height: 32px;
+        padding-bottom: 30px;
+    }
+
+    .about {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about__col, .about__col:first-child, .about__col:nth-child(2) {
+        margin-right: 0px;
+    }
+
+    .about__col {
+        padding-bottom: 30px;
+    }
+
+    .about__btn-delivery {
+        display: none;
+    }
+
 }
 
