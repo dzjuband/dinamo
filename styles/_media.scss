@@ -2,6 +2,10 @@
     .header__social-tel-number {
         display: none;
     }
+
+    .about__col:nth-child(3) {
+        margin-top: 30px;
+    }
 }
 
 @media (max-width:1310px){
@@ -60,8 +64,8 @@
 @media (max-width:1250px){
 
     .about  {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
 
         &__row {
             flex-direction: column;
@@ -69,16 +73,20 @@
 
         &__col {
 
-            &:last-child {
-                width: 100%;
+            &:nth-child(3) {
+                width: 50%;
+                margin-right: 0px;
             }
 
             &:first-child {
-                margin-right: 20px;
+                width: 50%;
+                margin-bottom: 30px;
+                margin-right: 0px;
             }
 
             &:nth-child(2) {
-                margin-right: 20px;
+                width: 50%;
+                margin-right: 0px;
             }
         }
     }
