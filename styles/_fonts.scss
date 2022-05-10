@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Noto';
+    src: url('../fonts/Notosansdisplayregular.woff2') format('woff2'),
+         url('../fonts/Notosansdisplayregular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto';
+    src: url('../fonts/Notosansdisplayblack.woff2') format('woff2'),
+         url('../fonts/Notosansdisplayblack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
