@@ -9,17 +9,17 @@
     font-weight: 900;
     font-size: 14px;
     line-height: 19px;
-}
 
-.btn--lg {
-    padding: 19px 48px;
-}
+    &--lg {
+        padding: 19px 48px;
+    }
 
-.btn--sm {
-    padding: 19px 35px;
-}
+    &--sm {
+        padding: 19px 35px;
+    }
 
-.btn:hover {
-    background-color: rgba(0, 0, 0, 0.6);
-    border-color: #B82121;   
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.6);
+        border-color: #B82121;   
+    }
 }
