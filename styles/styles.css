@@ -194,20 +194,20 @@ svg {
 .box-head {
   padding-top: 121px;
   padding-bottom: 60px;
+  text-align: center;
 }
 .box-head__title {
   max-width: 517px;
   font-weight: 900;
   font-size: 48px;
   line-height: 70px;
-  margin-bottom: 25px;
-  text-align: center;
   margin: 0 auto;
+  margin-bottom: 25px;
 }
 .box-head__caption {
   max-width: 632px;
-  text-align: center;
   margin: 0 auto;
+  line-height: 22px;
 }
 
 .about {
@@ -256,7 +256,7 @@ svg {
   max-width: 262px;
 }
 .about__row {
-  margin-bottom: 81px;
+  margin-bottom: 60px;
 }
 .about__btn-delivery {
   text-align: center;
