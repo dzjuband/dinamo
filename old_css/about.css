@@ -16,8 +16,6 @@
     font-display: swap;
 }
 
-
-
 .images_row {
     display: flex;
     justify-content: center;
@@ -102,6 +100,7 @@
     max-width: 405px;
     max-height: 50px;
     line-height: 25px;
+    font-size: 18px;
 }
 
 /************************************************************************************/
@@ -142,10 +141,16 @@
 
 .footer__text-city {
     line-height: 19px;
+    font-size: 14px;
+}
+
+.footer__text-email {
+    line-height: 17px;
+    font-size: 14px;
 }
 
 .footer__text-tel {
-    font-family: 'Noto', Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     line-height: 23px;
     font-weight: 700;
     font-size: 19px;
@@ -195,6 +200,7 @@
 }
 
 .footer__copyright-item {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     line-height: 15px;
     font-size: 12px;
 }
