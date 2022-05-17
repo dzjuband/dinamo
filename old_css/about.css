@@ -248,14 +248,27 @@
 
 .menu__img-text {
     position: absolute;
-    top: 100%;
-    left: 0;
-    text-align: center;
-    margin: 0 auto;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.menu__button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .menu__card{
     position: relative;
+}
+
+.menu__button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 @media (max-width:376px) {
