@@ -1,22 +1,21 @@
 
 .box-head  {
-    padding-top: 121px;
-    padding-bottom: 60px;
+    text-align: center;
 
     &__title {
         max-width: 517px;
         font-weight: 900;
         font-size: 48px;
         line-height: 70px;
-        margin-bottom: 25px;
-        text-align: center;
         margin: 0 auto;
+        margin-bottom: 25px;
     }
 
     &__caption {
         max-width: 632px;
-        text-align: center;
-        margin: 0 auto;
+        margin: 0 auto; 
+        line-height: 22px;
+        padding-bottom: 60px;
     }
 }
 
