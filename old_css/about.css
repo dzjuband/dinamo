@@ -309,6 +309,26 @@
     .images_row {
         margin: 0 10px;
     }
-      
-    
+}
+
+@media (max-width:410px){
+    .about {
+        padding-bottom: 10px !important;
+    }
+    .delivery > .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .footer > .container > .footer__wrap {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .delivery__item-desc {
+        max-height: 74px;
+    }
+
+    .delivery {
+        padding-bottom: 10px;
+    }
 }
