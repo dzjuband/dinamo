@@ -271,6 +271,36 @@
     transform: translate(-50%,-50%);
 }
 
+@media (max-width:1482px){
+    .delivery__main-col {
+        width: 100%;
+    }
+    .delivery__main-col :first-child{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:1340px){
+ .footer__text-tel {
+     display: block;
+ }
+}
+@media (max-width:1150px){
+    .menu__col {
+        width: 30%;
+        margin-right: 5px;
+        letter-spacing: normal;
+    }
+}
+@media (max-width:1010px){
+    .footer__main-col {
+        width: 50%;
+    }
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
 @media (max-width:376px) {
     .images_col {
         width: 100%;
