@@ -2,9 +2,12 @@
     .header__social-tel-number {
         display: none;
     }
-
-    .about__col:nth-child(3) {
-        margin-top: 30px;
+   
+}
+@media (max-width:1400px) {
+    .about {
+        padding-left: 50px;
+        padding-right: 50px;
     }
 }
 
@@ -58,39 +61,8 @@
         margin-left: 0px;
         margin-right: 3px;
     }
-
 }
 
-@media (max-width:1250px){
-
-    .about  {
-        padding-left: 10px;
-        padding-right: 10px;
-
-        &__row {
-            flex-direction: column;
-        }
-
-        &__col {
-
-            &:nth-child(3) {
-                width: 50%;
-                margin-right: 0px;
-            }
-
-            &:first-child {
-                width: 50%;
-                margin-bottom: 30px;
-                margin-right: 0px;
-            }
-
-            &:nth-child(2) {
-                width: 50%;
-                margin-right: 0px;
-            }
-        }
-    }
-} 
 
 @media (max-width:1023px) {
 
@@ -139,10 +111,22 @@
         }
 
     }
+
+    .about {
+        &__col {
+   
+             width: 50%;
+            
+             &:last-child {
+
+                 margin-top: 40px;
+             }
+        }
+    }
 }
 
 @media (max-width:768px) {
-
+    
     .hero {
         &__content {
             justify-content: center;
@@ -162,6 +146,10 @@
             align-items: center;
             flex-direction: column;
        }
+
+       &__caption {
+           font-size: 30px;
+       }
     }
 
     .box-head {
@@ -169,8 +157,31 @@
  
         &__title {
              font-size: 28px;
+             margin-bottom: 0px;
         }   
    
+     }
+
+     .about {
+         padding-top: 50px;
+         padding-bottom: 50px;
+
+         &__row{
+            margin-bottom: 0px;
+         }
+         &__col {
+            width: 100%;
+            margin-bottom: 30px;    
+            
+            &:last-child {
+                margin-top: 0px;
+            }
+         }
+         
+     }
+
+     .box-head{
+         padding-top: 10px;
      }
 
 }
@@ -224,17 +235,6 @@
 
 
     .about {
-        padding-left: 10px;
-        padding-right: 10px;
-
-        &__col {
-            padding-bottom: 30px;
-            margin-right: 0px;
-
-            &:first-child, &:nth-child(2) {
-                margin-right: 0px;
-            }
-        }
 
         &__btn-delivery {
             display: none;
