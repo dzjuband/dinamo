@@ -129,7 +129,7 @@ svg {
   max-width: 20px;
 }
 .header__social-svg-link:hover {
-  transform: scale(1.2);
+  transform: none;
 }
 .header__social-svg:hover {
   transform: scale(1.2);
@@ -207,59 +207,6 @@ svg {
   margin: 0 auto;
   line-height: 22px;
   padding-bottom: 60px;
-}
-
-.about {
-  background: linear-gradient(#000000, #000000);
-  padding-left: 237px;
-  padding-right: 236px;
-  padding-top: 121px;
-  padding-bottom: 137px;
-}
-.about__row {
-  flex-wrap: wrap;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.about__col {
-  flex-grow: 1;
-  flex-shrink: 1;
-}
-.about__col:first-child {
-  margin-right: 60px;
-}
-.about__col:nth-child(2) {
-  margin-right: 60px;
-}
-.about__card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.about__img {
-  display: block;
-  object-fit: cover;
-  width: 287px;
-  height: 287px;
-}
-.about__img-box {
-  position: relative;
-  padding-bottom: 40px;
-}
-.about__body-text {
-  text-align: center;
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 25px;
-  max-width: 262px;
-}
-.about__row {
-  margin-bottom: 60px;
-}
-.about__btn-delivery {
-  text-align: center;
 }
 
 @media (max-width: 1474px) {
@@ -446,6 +393,58 @@ svg {
     line-height: 32px;
     padding-bottom: 30px;
   }
+}
+.about {
+  background: linear-gradient(#000000, #000000);
+  padding-left: 237px;
+  padding-right: 236px;
+  padding-top: 121px;
+  padding-bottom: 137px;
+}
+.about__row {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about__col {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.about__col:first-child {
+  margin-right: 60px;
+}
+.about__col:nth-child(2) {
+  margin-right: 60px;
+}
+.about__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about__img {
+  display: block;
+  object-fit: cover;
+  width: 287px;
+  height: 287px;
+}
+.about__img-box {
+  position: relative;
+  padding-bottom: 40px;
+}
+.about__body-text {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 25px;
+  max-width: 262px;
+}
+.about__row {
+  margin-bottom: 60px;
+}
+.about__btn-delivery {
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
