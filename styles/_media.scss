@@ -1,10 +1,12 @@
 @media (max-width:1474px) {
+
     .header__social-tel-number {
         display: none;
     }
    
 }
 @media (max-width:1400px) {
+
     .about {
         padding-left: 50px;
         padding-right: 50px;
@@ -166,9 +168,10 @@
          padding-top: 50px;
          padding-bottom: 50px;
 
-         &__row{
+         &__row {
             margin-bottom: 0px;
          }
+
          &__col {
             width: 100%;
             margin-bottom: 30px;    
@@ -180,7 +183,7 @@
          
      }
 
-     .box-head{
+     .box-head {
          padding-top: 10px;
      }
 
