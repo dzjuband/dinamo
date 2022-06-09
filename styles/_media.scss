@@ -140,7 +140,6 @@
 
         &__desc {
             line-height: 22px;
-            max-width: 345px;
             text-align: center;
         }
 
@@ -150,9 +149,6 @@
             flex-direction: column;
        }
 
-       &__caption {
-           font-size: 30px;
-       }
     }
 
     .box-head {
@@ -251,7 +247,6 @@
 
     }
 
-
     .about {
         padding-left: 0px;
         padding-right: 0px;
@@ -260,7 +255,6 @@
         }
     }
 
-    
     .box-head__title {
         font-size: 28px;
         line-height: 32px;

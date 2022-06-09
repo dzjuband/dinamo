@@ -371,16 +371,12 @@ svg {
   }
   .hero__desc {
     line-height: 22px;
-    max-width: 345px;
     text-align: center;
   }
   .hero__box {
     display: flex;
     align-items: center;
     flex-direction: column;
-  }
-  .hero__caption {
-    font-size: 30px;
   }
 
   .box-head {
