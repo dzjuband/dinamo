@@ -95,16 +95,16 @@ svg {
   display: flex;
   justify-content: space-between;
 }
-.header__social {
-  display: flex;
-  margin-right: 99px;
-}
-.header__social-img {
+.header__tel {
   display: flex;
   flex-direction: row;
   margin-right: 22px;
   align-items: center;
   margin-right: 6px;
+}
+.header__social {
+  display: flex;
+  margin-right: 99px;
 }
 .header__social-tel-number:hover {
   color: #b82121;
@@ -290,7 +290,7 @@ svg {
     margin-right: 30px;
     flex-shrink: 0;
   }
-  .header__social-img {
+  .header__tel {
     margin-right: 20px;
   }
 
@@ -407,11 +407,11 @@ svg {
   }
 }
 @media (max-width: 410px) {
+  .header {
+    padding-bottom: 65px;
+  }
   .header__social {
     margin-left: 0px;
-  }
-  .header__social-img {
-    margin-right: 15px;
   }
   .header__social-svg {
     margin-left: 0px;
@@ -419,6 +419,9 @@ svg {
   }
   .header__social-svg:last-child {
     margin-right: 0px;
+  }
+  .header__tel {
+    margin-right: 15px;
   }
   .header__logo {
     margin-right: 59px;
@@ -428,14 +431,27 @@ svg {
     max-height: 56px;
   }
 
+  .hero {
+    min-height: initial;
+  }
   .hero__caption {
     font-size: 32px;
     line-height: 40px;
     font-weight: 900;
+    margin-bottom: 20px;
   }
   .hero__desc {
     line-height: 22px;
     max-width: 355px;
+    margin-bottom: 30px;
+  }
+  .hero__content {
+    flex-grow: 0;
+    padding-bottom: 150px;
+    margin-bottom: 0px;
+  }
+  .hero__wrap {
+    min-height: initial;
   }
 
   .about__btn-delivery {
