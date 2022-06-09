@@ -411,10 +411,6 @@ svg {
   }
 }
 @media (max-width: 410px) {
-  body {
-    font-size: 17px;
-  }
-
   .header {
     padding-bottom: 65px;
   }
