@@ -59,6 +59,10 @@ svg {
   padding: 0 10px;
 }
 
+.footer, .delivery, .images, .menu {
+  background-color: black;
+}
+
 .btn {
   display: inline-block;
   background-color: #B82121;
@@ -389,7 +393,7 @@ svg {
 
   .about {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
   }
   .about__row {
     margin-bottom: 0px;
@@ -407,6 +411,10 @@ svg {
   }
 }
 @media (max-width: 410px) {
+  body {
+    font-size: 17px;
+  }
+
   .header {
     padding-bottom: 65px;
   }
@@ -435,7 +443,7 @@ svg {
     min-height: initial;
   }
   .hero__caption {
-    font-size: 32px;
+    font-size: 34px;
     line-height: 40px;
     font-weight: 900;
     margin-bottom: 20px;
@@ -455,9 +463,8 @@ svg {
   }
 
   .about {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .about__btn-delivery {
     display: none;

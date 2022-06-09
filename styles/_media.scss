@@ -167,7 +167,7 @@
 
      .about {
          padding-top: 50px;
-         padding-bottom: 50px;
+         padding-bottom: 60px;
 
          &__row {
             margin-bottom: 0px;
@@ -191,7 +191,9 @@
 }
 
 @media (max-width:410px) {
-
+    body {
+        font-size: 17px;
+    }
     .header {
         padding-bottom: 65px;
         &__social {
@@ -227,7 +229,7 @@
         min-height:initial;
 
         &__caption {
-            font-size: 32px;
+            font-size: 34px;
             line-height: 40px;
             font-weight: 900;
             margin-bottom: 20px;
@@ -253,10 +255,8 @@
 
 
     .about {
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 60px;
-        
+        padding-left: 0px;
+        padding-right: 0px;
         &__btn-delivery {
             display: none;
         }
